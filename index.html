@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsa PAYA</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mainBody">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <br><br><br>
+        <div class="div1">
+            <br>
+            <form id="main-form" name="mainform" onsubmit="return false">
+            <label for="name">Whait is your name?</label>
+            <input type="text" id="name" class="class1" placeholder="First Name">
+            <br/>
+            <label for="lastName">What is your last name?</label>
+            <input type="text" id="lastName"  class="class1" placeholder="Last Name">
+            <br/>
+            <label for="email">What is your email address?</label>
+            <input type="email" id="email"   class="class1" placeholder="Email">
+            <br/>
+            <label for="city">In which city do you live?</label>
+            <input type="text" id="city"  class="class1" placeholder="City">
+            <br/>
+            <label for="province">In which province do you live?</label>
+            <input type="text" id="province"  class="class1" placeholder="Province">
+            <br/>
+            <fieldset id="buttons-membership">
+                <legend>Select your type of membership</legend>
+                <div>
+                    <input type="radio" name="membership" id="premium-memb" value="Premium" checked>
+                    <label for="premium-memb">Premium Membership</label>
+                </div>
+                <div>
+                    <input type="radio" name="membership" id="standard-memb" value="Standard">
+                    <label for="standard-memb">Standard Membership</label>
+                </div>
+                <div>
+                    <input type="radio" name="membership" id="basic-memb" value="Basic">
+                    <label for="basic-memb">Basic Membership</label>
+                </div>
+            </fieldset>
+            <br><br>
+            <label for="submit"></label>
+            <input type="submit" id="submit" value="Submit" onclick="userForm()">
+            <br><br>
+            <label for="reset"></label>
+            <input type ="reset" id="reset" value="Reset">
+        </form>
+        <br/>
+        <div id="output">
+
+        </div>
+    </div>
+        <footer>
+            <p>
+            ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Elsa PAYA
+            </p>
+        </footer>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsa PAYA</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mainBody">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <br><br><br>
+        <div class="div1">
+        <br>
+        <form id="excelForm" name="excelForm" onsubmit="return false">
+        <h2>Excel Functions</h2>
+        <label for="numbers">Enter your numbers separated by spaces:</label>
+        <input type="text" id="numbers"  class="class1" placeholder="12 34 56 78 90">
+        <div>
+            <input type="radio" name="excelRadioName" id="autoSum" value="AutoSum" checked>
+            <label for="autoSum">AutoSum</label>
+        </div>
+        <div>
+            <input type="radio" name="excelRadioName" id="average" value="Average">
+            <label for="average">Average</label>
+        </div>
+        <div>
+            <input type="radio" name="excelRadioName" id="max" value="Max">
+            <label for="max">Max</label>
+        </div>
+        <div>
+            <input type="radio" name="excelRadioName" id="min" value="Min">
+            <label for="min">Min</label>
+        </div>
+        <label for="excelSubmit"></label>
+        <input type="submit" id="excelSubmit" value="Submit" onclick="myExcelFuns()">
+        </form>
+
+        <br/>
+        <div>
+            <label for="output2">Result</label>
+            <input type="text" id="output2" readonly>
+        </div>
+    </div>
+    
+        
+
+        <br><br><br><br><br><br>
+
+        <footer>
+            <p>
+            ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Elsa PAYA
+            </p>
+        </footer>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

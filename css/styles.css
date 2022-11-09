@@ -1,0 +1,67 @@
+
+body{
+    background-color: #0a192f;
+    color:#8790b2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mainBody{
+    margin:auto;
+    width:70%;
+    background-color: #172a46; 
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#4bbbab;
+    text-transform: uppercase;
+    font-size:50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+header >nav>ul>li{
+    text-align: center;
+    display: inline;
+    margin-left: 2%;
+}
+
+fieldset,footer{
+    text-align: center;
+}
+
+.div1{
+    margin: 3%;
+    background-color: #2d476d;
+    padding:2%;
+}
+
+#submit, #reset,#submit2{
+    color:#8790b2;
+    background-color: #ffffff;
+    width:100%;
+    height:50px;
+    border-color: #ffffff;
+}
+
+input{
+    color:#8790b2;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    
+}
+
+label{
+    display: inline-block;
+    width:200px;
+    text-align: left;
+}
+
+
+
